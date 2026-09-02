@@ -1,9 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { mockEvents } from '../../data/mockEvents';
+import { allEvents } from '../../data/mockEvent';
 
 const initialState = {
-  events: mockEvents,
-  filteredEvents: mockEvents,
+  events: allEvents,
+  filteredEvents: allEvents,
   selectedEvent: null,
   loading: false,
   error: null,
